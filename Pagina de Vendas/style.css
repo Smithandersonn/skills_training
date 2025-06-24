@@ -1,0 +1,37 @@
+.header {
+   background-image: url('Imagens/background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5vh 10vw; /* Padding relativo */
+    text-align: center; 
+    text-justify:center;
+    text-transform: uppercase   ; /* Texto em maiúsculas */
+    font-family: 'Arial', sans-serif; /* Fonte genérica */  
+    font-weight: bold; /* Negrito */
+    font-size: 2.5rem; /* Tamanho da fonte */       
+    line-height: 1.2; /* Espaçamento entre linhas */
+    display: flex;  
+    min-height: 50vh; /* Altura mínima relativa */
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      padding: 10vh 5vw;
+      background-position: 60% center; /* Ajusta posição em mobile */
+    }
+  }
+.footer {
+    display: flex; 
+    justify-content: center; /* Centraliza o conteúdo */
+    background-color: #df0606c7; /* Cor de fundo escura */
+    color: white; /* Texto branco */
+    padding: 2vh 5vw; /* Padding relativo */
+    text-align: center; 
+    font-family: 'Arial', sans-serif; /* Fonte genérica */  
+    font-size: 1.2rem; /* Tamanho da fonte */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
