@@ -16,7 +16,7 @@ if opcao in ['1', '2', '3', '4', '5', '6']:
             valor2 =float(input("Digite o Segundo Valor:"))
         if opcao == '1':
             resultado = valor1 + valor2
-            print (f"o Resoltado da soma é: {resultado:g}")
+            print (f"o Resultado da soma é: {resultado:g}")
     except ValueError:
         print("Erro: Digite valores numéricos válidos!")
 else:
