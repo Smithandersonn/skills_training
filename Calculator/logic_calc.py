@@ -1,4 +1,4 @@
-#Desacio da Calculadora Python
+#Desafio da Calculadora Python
 print ("Escolha uma Expressão Numérica:")
 print ("1.Adição")
 print ("2.Subtração")
