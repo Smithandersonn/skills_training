@@ -19,5 +19,10 @@ o f no inicio da variavel permite inserir variáveis diretamente dentro da strin
 : → Indica o início da formatação.
 .2 → Define 2 casas decimais após o ponto.
 f → Indica que é um float (número decimal).
+incluir depois:
+Validação para valores negativos.
+Tratamento de erros para entradas não numéricas.
+Opção para calcular vários descontos diferentes.
+Cálculo de descontos em cascata.
 """
 print (f"O Salario com Desconto de {percentual_de_desconto:g}% é:R${resultado :.2f}")

@@ -42,4 +42,4 @@ while True:                                                     #Cria um loop in
         print('MENSAGEN RECEBIDA: ', mensagem.decode(),' - ',datetime.datetime.now().strftime('%H:%M:%S'))  #mensagem.decode()) Decodifica os bytes recebidos para string usando .decode() e exibe a mensagem
 
     print('CONEXÃO COM O CLIENTE FINALIZADA...', enderecoIP, ' EM: ',datetime.datetime.now().strftime('%d/%m/%Y - %H:%M:%S')) #Informa que a conexão com o cliente foi finalizada
-    conexao.close()                                             #Fecha o socket de conexão com conexao.close()
+    conexao.close()                                             #Fecha o socket de conexão com conexao.close()  
