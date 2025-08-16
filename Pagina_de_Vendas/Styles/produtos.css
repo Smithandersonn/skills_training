@@ -13,9 +13,9 @@ body {
 }
 
 header {
-    background-color: #000000; /* Preto */
+    background-color: #f8f8f8d3; /* Preto */
     border-bottom: 3px solid #0c0b0b; /* Vermelho escuro */
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ header {
 
 .product-card:hover {
     transform: translateY(-5px);
-    border-color: #0c0b0b; /* Vermelho escuro */
+    border-color: #b3aeae; /* Vermelho escuro */
 }
 
 .product-tag {
@@ -88,7 +88,7 @@ header {
 
 .product-image {
     height: 300px;
-    background: #65676859; /* Cinza claro transparente */
+    background: #b8bcbe59; /* Cinza claro transparente */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,6 +168,7 @@ header {
     color: #000000; /* Preto */
 }
 footer {
+
   bottom: 0;
   left: 0;
   right: 0;
