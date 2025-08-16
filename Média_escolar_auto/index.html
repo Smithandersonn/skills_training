@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas Escolares</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> Controle de Notas</h1>
+            <div class="controls">
+                <button id="refreshBtn"><i class="fas fa-sync-alt"></i> Atualizar</button>
+                <span id="lastUpdate"></span>
+            </div>
+        </header>
+
+        <div class="table-container">
+            <table id="gradesTable">
+                <thead>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>B1</th>
+                        <th>B2</th>
+                        <th>B3</th>
+                        <th>B4</th>
+                        <th>Média</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Dados serão inseridos via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="summary">
+            <div class="summary-card">
+                <h3><i class="fas fa-users"></i> Total Alunos</h3>
+                <p id="totalStudents">0</p>
+            </div>
+            <div class="summary-card">
+                <h3><i class="fas fa-check-circle"></i> Aprovados</h3>
+                <p id="approvedStudents">0</p>
+            </div>
+            <div class="summary-card">
+                <h3><i class="fas fa-exclamation-circle"></i> Reprovados</h3>
+                <p id="failedStudents">0</p>
+            </div>
+            <div class="summary-card">
+                <h3><i class="fas fa-chart-line"></i> Média Geral</h3>
+                <p id="averageGrade">0.0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
