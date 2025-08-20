@@ -1,0 +1,58 @@
+* {
+    margin 0 margin: 0;
+    padding: 0;
+}
+
+
+.menulist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+}
+
+.nickname {
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+footer {
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.menufooter {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
