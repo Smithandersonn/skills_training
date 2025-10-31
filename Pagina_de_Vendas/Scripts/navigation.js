@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // Redireciona para a página correspondente
       window.location.href = `Pages/${pageName}.html`;
+      
     });
   });
 });

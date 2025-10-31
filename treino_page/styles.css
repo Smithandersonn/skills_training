@@ -1,0 +1,85 @@
+* {padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+/*topo*/
+header{
+   
+ background-color: orange;
+    min-height: 10vh;
+}
+#headerTop{
+    gap:250px
+}
+#logopack{
+    max-width: 20px;
+}
+#logo{
+    max-width: 300px;
+    font-size: 40px;
+}
+#ulTopo{
+    display: flex;
+    list-style: none;
+}
+
+main{
+    display: flex;
+   justify-content: space-around;
+    
+}
+
+/*Principal*/
+
+#container{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    min-height: 75vh;
+   align-items: center;
+}
+article{
+    max-width: 500px;
+}
+h1{
+    font-size: 70px;
+}
+#btn{
+    display: flex;  
+    gap: 30px;
+    list-style: none;
+    padding: 20px;
+}
+#explore{
+    background-color: orange;
+    padding: 10px 6%;
+    border-radius: 10px;
+}
+#booknow{
+     background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px rgb(0, 0, 0);
+
+}
+
+aside{
+
+}
+/*Footer*/
+
+#footer{
+    justify-content: space-between;
+}
+#footer_principal{
+    background-color: rgb(255, 196, 0);
+    min-width: 30vh;
+    min-height: 15vh;
+}
+#desconto{
+    font-size: 40px;
+    font-weight: 900;
+}
+#info{
+    position: fixed;
+    bottom: 0;
+}
+

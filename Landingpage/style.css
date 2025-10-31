@@ -1,0 +1,262 @@
+*{
+padding: 0;
+margin: 0;
+width: 1440;
+height: 1024;
+}
+
+
+:root{
+---backgorund:#0F1419;
+---descrition_color:#7E8A98;
+---btn_color:#7E8A98;
+---highlights:#47307c;
+---highlights_text:#ECF0F1;
+---background_elemento:#1F2A36;
+---tecnologias_hover:#1abc9c;
+---background_logo:#0077B5;
+---background_card:#43267a;
+---text_colorcard:#ffffff;
+---span_color:#ffffff;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---backgorund);
+}
+/* TOPO */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    color:var(---textcolor);
+    padding-top: 30px;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.logo_topo{
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    color:var(---highlights_text);
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.3s;
+}
+.logo_topo:hover{
+    background-color:var(---background_logo);
+    transform: scale(1.09);
+}
+.link_externo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 32px;
+    background-color: var(---highlights);
+    color:var(---highlights_text    );
+    border-radius: 10px;
+    list-style: none;
+    text-decoration: none;
+    gap:30px;
+    transition: 0.3s;
+}
+.link_externo:hover{
+    color:var(---highlights);
+    background-color: var(---highlights_text);
+    transform: scaleY(-2px) scale(1.03);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;   
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    color: var(---highlights_text);
+    margin: 50px;
+    width: 992px;
+    height: 200px;
+}
+
+/*Conteudos do Centro*/
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+    margin:15px
+}
+
+.descricao{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height:110px;
+    color:var(---descrition_color)
+}
+h2{ 
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(---background_elemento);
+    color: var(---highlights_text);
+    width:370px;
+    height: 50px;
+    margin: 23px;
+    border-radius: 10px;
+}
+.menu_linguagens{
+
+    display: flex;
+    gap:18px
+}
+.linguagens{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:var(---highlights_text);
+    border-radius: 10px;
+    width: 117px;
+    height: 63px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+.menu_interativo{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height:263px;
+   
+}
+.ilustracao{
+    width: 260px;
+    height:260px;
+   
+    
+}
+
+/*Conteudos finais*/
+
+.projetos{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(---background_elemento);
+    color: var(---highlights_text);
+    justify-content: center;
+    width:140px;
+    height: 50px;
+    margin:30px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.btn_avanca, .btn_retroceder{
+    width: 30px;
+    height: 30px;
+    color: var(---btn_color);
+    opacity: 30%;
+    border-radius: 10px;
+}
+.cards_container{
+    display: flex;
+    color:var(---highlights_text);
+    gap:36px;
+    padding-top: 10px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    color: var(---text_colorcard);
+    background-color: var(---background_card);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.09);
+    background-color: var(---text_colorcard);
+    color: var(---background_card);
+}
+
+h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    box-shadow: #0F1419;
+}
+.info_card{
+    display: flex;
+    height: 112px;
+    margin:15px;
+    
+}
+span{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:var(---backgorund);
+    transition: 0.3s;
+    color:var(---span_color);
+    transition: 0.3s;
+}
+span:hover{
+    background-color: var(---background_card);
+    color: var(---text_colorcard);
+    transform: scale(1.09);
+
+}
+.span_list{
+    display: flex;
+    text-align: center;
+    margin:10px;
+    gap:10px
+}
+

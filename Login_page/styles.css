@@ -1,9 +1,18 @@
+:root{
+--bg:;
+--cp:rgb(241, 209, 101);
+--cs:rgb(184, 180, 173);
+--cd:purple; 
+}
+
+
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    overflow: hidden;}
+    overflow: hidden;
 
 h2 {
     color: #000000;
@@ -11,7 +20,6 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
-    
     margin: 0 auto;
     padding: 10px;
 
@@ -25,18 +33,32 @@ body{
     text-align: center;
     margin-top: 250px;
 }
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 400px;
+    background-color: antiquewhite;
+}
+.Cadastre-se{
+    width: 400px;
+    background-color: aqua;
+}
 button{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:10%;
+    width:100px;
     height:30px;
     margin: 0 auto; /* center the button */
     margin-top: 10px;
+    border-radius: 20px;
 }
 button:hover {
-    background-color: #706f1dc0;
-    color: #000000;
+    background-color: #6be08ec0;
+    color: #ffffff;
     transform: scale(1.1);
     border: none;
 }

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image:linear-gradient(to right ,#140f0f,#141313);
+    
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding:80px;
+font-size: larger;
+flex-wrap: wrap; 
+
+}
+
+.box{
+color: aliceblue;
+ background-color:rgba(110, 78, 66, 0.493) ;
+ padding: 15px;
+ border-radius: 15px;
+  
+}
+
+.menulist{
+    display: flex;
+    justify-content:center;
+    color: azure;
+}
+
+li{
+display: flex;
+justify-content: space-between;
+gap: 50vh;
+
+}
+.list{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frame{
+display: flex;
+gap: 10px;
+}
+
+.button_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+.button_add:hover{
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 177, 128, 0.829);
+    transition: transform 0.5s ease;
+
+
+}
+.input_task{
+display: flex;
+padding: 5px 150px;
+border-radius: 4px;
+margin: 2px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-block-end: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+   color: azure;
+   opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    padding: 10px;
+   overflow-y: hidden;
+}
+    
