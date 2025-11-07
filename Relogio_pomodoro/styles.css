@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+}
+:root{
+    --background:#FFF9F9;
+    --background_clock_elements:#D9534F;
+    --clock:#FFB8B8;
+    --start:#F5A3A3;
+    --font:#f5f5f5;
+}
+header{
+    display: flex;
+    background-color: #3d643d;
+}
+.sw_color{
+    background-color: #1A2A1A;
+    color: #751016;
+}
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--background);
+}
+section{
+    display:flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.clock{
+    display: flex;
+    background-color: var(--background_clock_elements);
+    color: var(--clock);
+    width: 100%;
+    min-width: 1215px;
+    min-height: 462px;
+    font-size: 500px;
+    font-family: DS-Digital;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.modo, .operacao, .estudo, .pausa{
+    font-family: DS-Digital;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    font-size: 48px;
+    color: var(--font);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 205px;
+    min-height: 53px;
+    border-radius: 10px;
+    background-color: var(--background_clock_elements);
+}
+
+.start_stop{
+    width: 100%;
+    max-width:60px;
+    min-height: 60px;
+    border-radius: 100px;
+    background-color:var(--start);
+
+}
+
+.color1{
+    --background:#FFF9F9;
+    --background_clock_elements:#D9534F;
+    --clock:#FFB8B8;
+    --start:#F5A3A3;
+}
+
+.color2{
+    --background:#1A2A1A;
+    --background_clock_elements:#2D4A2D;
+    --clock:#8CCB8C;
+    --start:#6BA76B;
+}
+
+.color3{
+    --background:#2A1A1A;
+    --background_clock_elements:#4A2D2D;
+    --clock:#CB8C8C;
+    --start:#F5A3A3;
+}
+.color4{
+    --background:#97181C;
+    --background_clock_elements:#751016;
+    --clock:#FFFFFF;
+    --start:#751016;
+}
+
+
+
+
+
+
+
+
+
