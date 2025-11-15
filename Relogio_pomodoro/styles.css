@@ -5,9 +5,11 @@
 }
 html{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content:center;
     min-height: 100vh;
+ 
 }
 :root{
     --background:#FFF9F9;
@@ -17,14 +19,30 @@ html{
     --font:#f5f5f5;
 }
 header{
+    width: 100%;
     display: flex;
-    background-color: #3d643d;
+    justify-content: flex-end;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
 }
-.sw_color{
-    background-color: #1A2A1A;
-    color: #751016;
+
+#sw_color{
+    width: 100%;
+    max-width: 40px;
+    min-height: 40px;
+    border-radius: 100%;
+    color: transparent;
+    opacity: 30%;
+    
 }
-body{display: flex;
+
+body{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:var(--background);
@@ -34,8 +52,15 @@ section{
     flex-direction: column;
     gap: 90px;
 }
-.clock{
+
+#operacao {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    display: flex;
+    justify-content: center;
     background-color: var(--background_clock_elements);
     color: var(--clock);
     width: 100%;
@@ -54,7 +79,16 @@ main{
     align-items: center;
     gap: 70px;
 }
-.modo, .operacao, .estudo, .pausa{
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px ;
+    color: var(--background_clock_elements);
+    gap: 15px;
+}
+
+#modo, #operacao, #estudo, #pausa{
     font-family: DS-Digital;
     font-style: italic;
     font-weight: 400;
@@ -65,20 +99,30 @@ main{
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 205px;
+    min-width: 205px;
     min-height: 53px;
     border-radius: 10px;
     background-color: var(--background_clock_elements);
 }
+::placeholder {
+    display: flex;
+    text-align: center;
+    color: var(--font);
+    opacity: 40%;
+}
 
-.start_stop{
+#start_stop{
     width: 100%;
     max-width:60px;
     min-height: 60px;
     border-radius: 100px;
+    color: transparent;
     background-color:var(--start);
-
+    background-image: url(./imagens/play.png);
+    background-position: center;
+    background-size:90px;
 }
+
 
 .color1{
     --background:#FFF9F9;
@@ -107,11 +151,20 @@ main{
     --start:#751016;
 }
 
+.start{
+    background-image: url(./imagens/play.png);
+    background-size: 150%;
+    background-position: center;
+}
+.pause{
+    background-image: url(./imagens/pause.png);
+    background-size: 150%;
+    background-position: center;
+}
 
-
-
-
-
+input:disabled {
+    cursor: not-allowed;
+}
 
 
 

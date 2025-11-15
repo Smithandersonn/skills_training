@@ -15,7 +15,6 @@ box-sizing: border-box;
 --tecnologias_hover:#1abc9c;
 --text_colorcard:#ffffff;
 --span_color:#ffffff;
-
 }
 
 html{
@@ -260,6 +259,7 @@ h3{
     margin:15px;
     
 }
+
 span{
     font-size: 15px;
     display: flex;

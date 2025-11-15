@@ -7,19 +7,25 @@
     <title>Time-to-Study</title>
 </head>
 
-<body>
+<body class ="color4">
     <header>
-        <button class="sw_color"></button>
+        <button onclick="choose_color()" id="sw_color"></button>
     </header>
     <section >
-        <h1 class="clock">00:00</h1>
+        <h1 id="clock">00:00</h1>
         <main>
-            <button class="modo">MODO</button>
-            <button class="operacao">ESCOLHA</button>
-            <button class="start_stop"></button>
-            <input type="time" class="estudo" placeholder="ESTUDO">
-            <input type="time" class="pausa" placeholder="PAUSA">
-        </main>
+            <div>
+                <button onclick="change()"  id="modo">MODO</button>
+                    <h2>=</h2>
+                <h1 id="operacao">PADRAO</h1>
+            </div>
+            <button onclick="swstartstop()" id="start_stop">START</button>
+            <div id="custom_section">
+                <input type="number" min="1" max="60"  id="estudo" >
+                    <h2>:</h2>
+                <input type="number" min="1" max="60" id="pausa">
+            </div>
+            </main>
     </section>
     <footer></footer>
     <script src="main.js"></script>
