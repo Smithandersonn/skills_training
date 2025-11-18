@@ -1,0 +1,8 @@
+title{
+    max-width: 60px;
+    width: 100%;
+    min-width: 60px;
+    background-image: url(./src/logo/logo.png);
+    background-image: no-repeat;
+    background-position: center;
+}
