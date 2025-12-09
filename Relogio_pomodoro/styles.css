@@ -3,6 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family:'Minha_fonte';
+    src: url(fonts/DS-DIGI.TTF);
+}
+
 html{
     display: flex;
     flex-direction: column;
@@ -67,8 +72,8 @@ section{
     min-width: 1215px;
     min-height: 462px;
     font-size: 500px;
-    font-family: DS-Digital;
-    font-style: italic;
+    font-family: 'Minha_fonte';
+ 
     font-weight: 400;
     line-height: normal;
     border-radius: 20px;
@@ -89,8 +94,7 @@ div{
 }
 
 #modo, #operacao, #estudo, #pausa{
-    font-family: DS-Digital;
-    font-style: italic;
+    font-family:'Minha_fonte';
     font-weight: 400;
     line-height: normal;
     border-radius: 20px;
@@ -113,7 +117,7 @@ div{
 
 #start_stop{
     width: 100%;
-    max-width:60px;
+    min-width:60px;
     min-height: 60px;
     border-radius: 100px;
     color: transparent;
@@ -121,6 +125,19 @@ div{
     background-image: url(./imagens/play.png);
     background-position: center;
     background-size:90px;
+    opacity: 0.5;
+}
+#stop{
+    width: 100%;
+    min-width:60px;
+    min-height: 60px;
+    border-radius: 100px;
+    color: transparent;
+    background-color:var(--start);
+    background-image: url(./imagens/stop.png);
+    background-position: center;
+    background-size:50px;
+    opacity: 0.5;
 }
 
 
