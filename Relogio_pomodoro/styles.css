@@ -5,7 +5,8 @@
 }
 @font-face {
     font-family:'Minha_fonte';
-    src: url(fonts/DS-DIGI.TTF);
+    src: url(fonts/DS-DIGI.woff2) format('woff2');
+    font-display: swap;
 }
 
 html{
@@ -37,8 +38,8 @@ header{
 
 #sw_color{
     width: 100%;
-    max-width: 40px;
-    min-height: 40px;
+    max-width: 60px;
+    min-height: 60px;
     border-radius: 100%;
     color: transparent;
     opacity: 30%;
@@ -73,7 +74,6 @@ section{
     min-height: 462px;
     font-size: 500px;
     font-family: 'Minha_fonte';
- 
     font-weight: 400;
     line-height: normal;
     border-radius: 20px;
@@ -103,8 +103,8 @@ div{
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 205px;
-    min-height: 53px;
+    width: 205px;
+    height: 53px;
     border-radius: 10px;
     background-color: var(--background_clock_elements);
 }
